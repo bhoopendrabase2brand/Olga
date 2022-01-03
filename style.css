@@ -1,0 +1,700 @@
+*{
+    font-family: 'Lora', serif;
+}
+
+.p8{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* HEADER BANNER SECTION START */
+
+
+.row.bg-header-jw {
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 50% 50%;
+}
+
+p.bottom-caption-text-heading {
+    font-size: 43px !important;
+}
+
+.row.bg-header-jw h1 {
+    font-size: 139px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    color: #4A1C00;
+    letter-spacing: 4.2px;
+}
+
+
+.col-header-card img {
+    max-width: 100%;
+}
+
+.col-header-card img {
+    max-width: 100%;
+}
+
+.row.bg-header-jw p {
+    font-size: 62px;
+    margin: 0;
+    font-family: 'Bebas ', sans-serif;
+}
+
+
+.header-girl-main img {
+    max-width: 100%;
+}
+
+
+.dfghj {
+    gap: 50px;
+    width: 90%;
+    margin: auto;
+    margin-right: 0 !important;
+}
+
+.header-colum {
+    display: flex;
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.dfghj {
+    gap: 50px;
+    width: 89%;
+    margin: auto;
+}
+
+.row-header-b {
+    display: flex;
+    flex: 0 0 auto;
+    width: 90%;
+    align-items: end;
+    margin-bottom: 0 !important;
+    margin: auto;
+    gap: 50px;
+    margin-right: 0;
+}
+
+
+p.gudhhdi {
+    font-weight: bold;
+    top: 6.9rem;
+    position: absolute;
+    font-size: 139px !important;
+    font-family: 'Bebas Neue', cursive !important;
+    letter-spacing: 15px;
+    color: white;
+}
+
+/* HEADER BANNER SECTION END */
+
+
+/* Timeless Beautiful Designs  section start */
+
+
+.col.img-bg img {
+    max-width: 100%;
+}
+
+
+
+
+.col.img-bg {
+    background: #313B56;
+}
+
+.col {
+    display: flex;
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col1.small-img {
+    display: grid;
+    align-items: end;
+}
+
+.col {
+    display: grid;
+}
+
+ 
+.col1.small-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.row.bhoope11 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.col1.head-text .timeline h1 {
+    font-size: 56px;
+    font-weight: 500;
+    color: #313B56;
+    margin-top: 0;
+    padding: 0 10rem 0 0rem;
+}
+
+.row.bhoope1 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+    background: #cfcfcf;
+}
+
+.row.bhoope111 {
+    max-width: 1230px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.text-bottom h1 {
+    font-size: 56px;
+    font-weight: 500;
+    color: #313B56;
+    padding-top: 6rem;
+}
+
+
+.text-bottom p {
+    font-family: 'Poppins', sans serif;
+    font-size: 24px;
+    padding: 0 8rem;
+    font-weight: 500;
+}
+
+.col1.head-text p {
+    font-size: 24px;
+}
+
+button.btn-1 {
+    width: max-content;
+    padding: 0.7rem 6rem;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    border: 3px solid #000;
+    margin: 30px 0;
+}
+
+
+
+
+
+.col1.head-text {
+    display: flex;
+    flex: 0 0 auto;
+    width: 80%;
+    margin: auto;
+}
+
+.col1.small-img {
+    display: flex;
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+
+@media  (max-width: 1440px) {
+    .col1.head-text p {
+        font-size: 20px;
+    }
+
+    .col1.head-text {
+        display: flex;
+        flex: 0 0 auto;
+        width: 80%;
+        margin: auto;
+    }
+
+    .col1.head-text .timeline h1 {
+        font-size: 48px;
+        font-weight: 500;
+        color: #313B56;
+        margin-top: 0;
+        padding: 0 10rem 0 0rem;
+    }
+
+    .col02 h2 {
+        font-size: 48px !important;
+    }
+
+  
+
+    .col02 p {
+        padding: 0px 9rem 0 0px !important;
+    }
+
+    .col02 h4 {
+        padding: 0 !important;
+    }
+
+    p.gudhhdi {
+        top: 12rem;
+        font-size: 102px !important;
+    }
+
+    .row.bg-header-jw h1 {
+        font-size: 102px;
+    }
+
+    .row.bg-header-jw p {
+        font-size: 44px;
+    }
+
+    p.gudhhdi {
+        top: 4rem;
+    }
+
+    button.btn-1.head-btn {
+        margin: 0;
+    }
+
+    p.bottom-caption-text-heading {
+        font-size: 36px !important;
+    }
+
+
+  }
+
+
+  @media  (max-width: 1024px) {
+    .col1.head-text .timeline h1 {
+        font-size: 48px;
+        font-weight: 500;
+        color: #313B56;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .col1.head-text .timeline h1 {
+        margin: 0;
+    }
+
+    button.btn-1 {
+        padding: 0.6rem 4rem;
+    }
+
+    .text-bottom h1 {
+        font-size: 48px;
+    }
+
+    .text-bottom p {
+        font-size: 18px;
+    }
+
+
+    .col02 h4 {
+        font-size: 18px !important;
+    }
+
+    .col02 h2 {
+        font-size: 32px !important;
+    }
+
+
+    .col02 p {
+        padding: 0 !important;
+    }
+
+    .row.bg-header-jw h1 {
+        font-size: 69px;
+    }
+
+    .row.bg-header-jw p {
+        font-size: 32px;
+    }
+
+    
+    p.gudhhdi {
+        font-size: 69px !important;
+    }
+
+    .row-header-b {
+        margin: 0;
+    }
+
+    p.gudhhdi {
+        top: 14.9rem;
+    }
+
+    p.bottom-caption-text-heading {
+        font-size: 26px !important;
+    }
+
+    button.btn-1.head-btn {
+        margin: 0;
+    }
+
+    p.gudhhdi {
+        top: 2.6rem;
+    }
+
+  }
+
+
+ /* Timeless Beautiful Designs  section End */
+
+
+
+ /* Really Amazing Gift-Worthy Designs.... Start */
+ .row.bhoopi73 {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-auto-flow: column;
+    align-items: center;
+    background: #FFF6F1;
+}
+
+.col-offer13 img {
+    max-width: 100%;
+}
+
+.col012 img {
+    max-width: 100%;
+}
+
+.col03 img {
+    max-width: 100%;
+}
+
+.col01 img {
+    max-width: 100%;
+}
+
+.col01 {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+.col01 {
+    display: flex;
+    justify-content: center;
+}
+
+
+ .col02 h2 {
+    font-size: 56px;
+    font-weight: 500;
+    color: #313B56;
+}
+
+.col02 p {
+    color: #895B05;
+    font-family: 'Poppins' , serif;
+    font-size: 24px;
+}
+
+.col02 p {
+    color: #895B05;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 24px;
+}
+
+.col02 h4 {
+    font-family: 'Poppins' , sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #313B56;
+}
+
+
+.col02 p  {
+    padding: 0px 16rem 0 0px;
+}
+
+
+.col02 h4  {
+    padding: 0px 11rem 0 0px;
+}
+  /* Really Amazing Gift-Worthy Designs.... End */
+
+
+
+
+
+
+  /* Really Amazing Gift-Worthy Designs.....2 start */
+  .row.bhoopi79 {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+}
+
+.col1.head-text.seccond h1{
+    font-size: 56px;
+    color: #0E1C32;
+    font-weight: 600;
+    margin-bottom: 0%;
+}
+
+.col1.head-text.seccond p {
+    padding: 0 13rem 0 0;
+    font-family: Arial,  sans-serif;
+}
+
+.col1.head-text.seccond {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    width: 76%;
+    margin: auto;
+}
+
+p.text-second {
+    padding: 0 10rem 0 0 !important;
+}
+
+
+img.img-pad {
+    padding: 0 0 0 5.6rem;
+}
+
+
+
+
+.line {
+    width: 208px;
+    height: 3px;
+    background: #000;
+    margin: 0 -88px 0 0px !important;
+}
+
+.line0 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -30px;
+}
+
+
+.line00 {
+    margin-left: -10rem;
+}
+
+
+.col-offer1 img {
+    max-width: 100%;
+}
+
+.col012 {
+    display: flex;
+    align-items: center;
+}
+  /* Really Amazing Gift-Worthy Designs....2  ENd */
+
+
+
+  /* OFFER SECTION START */
+  .offer-row {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 50% 25% 25%;
+   
+}
+
+.col-offer {
+    width: max-content;
+}
+
+.col-offer12 {
+    text-align: center;
+    background: #2C211B;
+    display: flex;
+    justify-content: center;
+}
+
+.offer-ce-es {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-offer12 h4 {
+    font-family: 'Nanum Brush Script', cursive !important;
+    font-size: 34px;
+    color: #D6A96D;
+    margin: 0;
+}
+
+.col-offer12 p {
+    font-family: 'Arial' , sans-serif;
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+.col-offer12 h3 {
+    font-family: 'Arial' , sans-serif;
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+.col-offer12 h1 {
+    font-family: 'Arial' , sans-serif;
+    font-size: 72px;
+    color: #D6A96D;
+    margin: 0;
+}
+
+button.order-button {
+    width: 247px;
+    font-size: 24px;
+    height: 59px;
+    font-family: 'Poppins' , sans-serif;
+    color: #D6A96D;
+    background: transparent;
+    border: 3px solid;
+}
+
+.arrow {
+    padding: 10px 0;
+}
+
+.col-offer1 img {
+    max-width: 100%;
+}
+
+.col-offer13 img {
+    max-width: 100%;
+}
+
+.col-offer13 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.offer-content-row {
+    text-align: center;
+}
+
+.offer-content-row h4 {
+    font-family: 'Arial',sans-serif;
+    font-size: 34px;
+    color: #2C211B;
+}
+
+.fo{
+    font-family: 'Arial',sans-serif;
+    font-size: 34px;
+}
+
+.offer-block {
+    display: flex;
+    justify-content: center;
+}
+
+.offer-block-content {
+    background: #2C211B;
+    color: white;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+}
+
+.offer-block-content div {
+    border: 4px solid white;
+    padding: 0px 1rem;
+    border-style: dotted;
+}
+
+.offer-block-content h3 {
+    margin-bottom: 0px;
+}
+
+.offer-block-content p {
+    margin-top: 0;
+}
+
+h3.fo.mar {
+   
+    margin-bottom: 24px;
+    margin-top: 24px;
+
+}
+
+.offer-content-row h1 {
+    font-size: 74px;
+    color: #744C17;
+    font-weight: bold;
+}
+
+.promise-sectin.p8 {
+    background: #0E1C32;
+}
+
+.promise-section-text h1 {
+    font-size: 56px;
+    color: white;
+}
+
+
+.promise-section-text p {
+    font-size: 24px;
+    color: white;
+    font-family: 'Arial',sans-serif;
+}
+
+
+.promise-section-text {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}   
+  /* OFFER SECTION END */
+
+
+  /* HERE WHAT OUR COTOMERE SAY SECTION  START */
+  .row-client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.client-text h1 {
+    color: #0E1C32;
+    font-weight: 500;
+    font-size: 56px;
+}
+
+.client-text p {
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+}
+
+.client-text {
+    width: 50%;
+}
+
+
+
+
+  /* HERE WHAT OUR COTOMERE SAY SECTION  END */
