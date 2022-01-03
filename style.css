@@ -7,6 +7,16 @@
     padding-bottom: 50px;
 }
 
+.bhupi-pro {
+    display: flex;
+    flex: 0 0 auto;
+    width: 90%;
+    align-items: end;
+    margin-bottom: 0 !important;
+    margin: auto;
+    gap: 7rem;
+    margin-right: 0;
+}
 
 body {
     margin: 0px;
@@ -25,15 +35,16 @@ body {
 }
 
 p.bottom-caption-text-heading {
-    font-size: 43px !important;
+    font-size: 36px !important;
 }
 
 .row.bg-header-jw h1 {
-    font-size: 139px;
+    font-size: 7.7vw;
     font-family: 'Bebas Neue', cursive;
     margin: 0;
     color: #4A1C00;
     letter-spacing: 4.2px;
+    line-height: 1;
 }
 
 
@@ -46,7 +57,7 @@ p.bottom-caption-text-heading {
 }
 
 .row.bg-header-jw p {
-    font-size: 62px;
+    font-size: 54px;
     margin: 0;
     font-family: 'Bebas ', sans-serif;
 }
@@ -54,12 +65,13 @@ p.bottom-caption-text-heading {
 
 .header-girl-main img {
     max-width: 100%;
+    height: 100%;
 }
 
 
 .dfghj {
     gap: 50px;
-    width: 90%;
+    width: 93%;
     margin: auto;
     margin-right: 0 !important;
 }
@@ -74,16 +86,11 @@ p.bottom-caption-text-heading {
 }
 
 
-.dfghj {
-    gap: 50px;
-    width: 89%;
-    margin: auto;
-}
 
 .row-header-b {
     display: flex;
     flex: 0 0 auto;
-    width: 90%;
+    width: 93%;
     align-items: end;
     margin-bottom: 0 !important;
     margin: auto;
@@ -102,6 +109,22 @@ p.gudhhdi {
     color: white;
 }
 
+
+.fghjhj h1 {
+    white-space: nowrap;
+}
+
+.row-header-b1 {
+    display: flex;
+   
+    background: #EFEFED;
+    
+}
+
+.bhoopi77 p {
+    color: #775540;
+}
+
 /* HEADER BANNER SECTION END */
 
 
@@ -113,7 +136,9 @@ p.gudhhdi {
 }
 
 
-
+.col.img-bg img {
+    height: 100%;
+}
 
 .col.img-bg {
     background: #313B56;
@@ -177,13 +202,13 @@ p.gudhhdi {
     font-size: 56px;
     font-weight: 500;
     color: #313B56;
-    padding-top: 6rem;
+    padding-top: 3rem;
 }
 
 
 .text-bottom p {
     font-family: 'Poppins', sans serif;
-    font-size: 24px;
+    font-size: 20px;
     padding: 0 8rem;
     font-weight: 500;
 }
@@ -199,6 +224,7 @@ button.btn-1 {
     font-family: 'Poppins', sans-serif;
     border: 3px solid #000;
     margin: 30px 0;
+    background: transparent;
 }
 
 
@@ -219,9 +245,51 @@ button.btn-1 {
 }
 
 
-@media  (max-width: 1440px) {
+@media only screen and  (max-width: 1440px) {
+
+    button.btn-1.head-btn {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .row-header-b1 {
+        display: flex;
+        background: #EFEFED;
+        justify-content: space-around;
+    }
+
+    .row-header-b {
+        display: flex;
+        flex: 0 0 auto;
+        width: 90%;
+        align-items: center;
+        margin-bottom: 0 !important;
+        margin: auto;
+        gap: 50px;
+        margin-right: 1rem;
+    }
+
+
     .col1.head-text p {
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    .row.bg-header-jw h1 {
+        font-size: 7.5vw;
+    }
+
+
+    img.img-pad{
+        padding: 0 !important;
+    }
+
+
+    .promise-section-text h1 {
+        font-size: 48px  !important;
+    }
+
+    .promise-section-text p {
+        font-size: 18px !important;
     }
 
     .col1.head-text {
@@ -232,7 +300,7 @@ button.btn-1 {
     }
 
     .col1.head-text .timeline h1 {
-        font-size: 48px;
+        font-size: 36px;
         font-weight: 500;
         color: #313B56;
         margin-top: 0;
@@ -240,7 +308,7 @@ button.btn-1 {
     }
 
     .col02 h2 {
-        font-size: 48px !important;
+        font-size: 36px !important;
     }
 
   
@@ -258,12 +326,8 @@ button.btn-1 {
         font-size: 102px !important;
     }
 
-    .row.bg-header-jw h1 {
-        font-size: 102px;
-    }
-
     .row.bg-header-jw p {
-        font-size: 44px;
+        font-size: 36px;
     }
 
     p.gudhhdi {
@@ -275,32 +339,179 @@ button.btn-1 {
     }
 
     p.bottom-caption-text-heading {
-        font-size: 36px !important;
+        font-size: 30px !important;
+    }
+
+    .client-text h1 {
+        font-size: 42px !important;
+    }
+    .client-text p {
+        font-size: 21px !important;
+        font-family: 'Arial', sans-serif;
+    }
+
+
+    .line {
+        width: 150px !important;
+    }
+
+    .line00 {
+        margin-left: -4rem !important;
     }
 
 
   }
 
 
-  @media  (max-width: 1024px) {
+  @media only screen and  (max-width: 1280px){
+
+    .line00 {
+        margin-left: -4rem !important;
+    }
+
+    .row.bg-header-jw h1 {
+        font-size: 7.6vw;
+    }
+
+    .row.bg-header-jw h1 {
+        font-size: 7.3vw;
+    }
+
+    .col1.head-text.seccond h1 {
+        font-size: 42px !important;
+    }
+
+    .line {
+        width: 150px !important;
+    }
+
+    img.img-pad{
+        padding: 0 !important;
+    }
+
+    img.img-pad {
+        padding: 0 !important;
+    }
+
+
+   
+    .row.bg-header-jw p {
+        font-size: 32px;
+    }
+
+
+    p.bottom-caption-text-heading {
+        font-size: 32px !important;
+    }
+
+
+
+    p.gudhhdi {
+        top: 3rem;
+    }
+
+
+    p.gudhhdi {
+        font-size: 88px !important;
+    }
+
+   
+   
+
+    .row-header-b {
+        gap: 18PX;
+    }
+
+
+    button.btn-1 {
+        padding: 0.5rem 3rem;
+    }
+
+    .col-offer12 h1 {
+        font-size: 56px !important;
+    }
+
+    button.order-button {
+        width: 200px !important;
+        height: 44px !important;
+    }
+
+    .line {
+        width: 100px !important;
+        height: 3px;
+    }
+
+    .line00 {
+        margin-left: -4rem !important;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 1024px) {
     .col1.head-text .timeline h1 {
-        font-size: 48px;
+        font-size: 33px;
         font-weight: 500;
         color: #313B56;
         margin-top: 0;
         padding: 0;
     }
 
+
+    button.btn-1 {
+        margin: 10px 0 !important;
+        padding: 0.6rem 2rem;
+    }
+
+    button.order-button {
+        width: 173px !important;
+        height: 36px !important;
+    }
+
+
+    .col-offer12 h1 {
+        font-size: 48px !important;
+    }
+
+    .col-offer12 h4 {
+        font-size: 24px !important;
+    }
+
+    .col-offer12 p {
+        font-size: 18px !important;
+    }
+
+
+    .promise-section-text p {
+        font-size: 13px !important;
+    }
+
+
+    .fo {
+        font-size: 18px !important;
+    }
+
+
+    .promise-section-text h1 {
+        font-size: 28px !important;
+    }
+
+    .client-text h1 {
+        font-size: 28px !important;
+    }
+
+
+    .client-text p {
+        font-size: 13px !important;
+        font-family: 'Arial', sans-serif;
+    }
+
     .col1.head-text .timeline h1 {
         margin: 0;
     }
 
-    button.btn-1 {
-        padding: 0.6rem 4rem;
-    }
-
     .text-bottom h1 {
-        font-size: 48px;
+        font-size: 36px;
     }
 
     .text-bottom p {
@@ -321,9 +532,6 @@ button.btn-1 {
         padding: 0 !important;
     }
 
-    .row.bg-header-jw h1 {
-        font-size: 69px;
-    }
 
     .row.bg-header-jw p {
         font-size: 32px;
@@ -332,10 +540,6 @@ button.btn-1 {
     
     p.gudhhdi {
         font-size: 69px !important;
-    }
-
-    .row-header-b {
-        margin: 0;
     }
 
     p.gudhhdi {
@@ -354,7 +558,124 @@ button.btn-1 {
         top: 2.6rem;
     }
 
+    .col1.head-text.seccond p {
+        padding: 0 0rem 0 0 !important;
+    }
+
+    .col1.head-text.seccond h1 {
+        font-size: 36px !important;
+    }
+
+    img.img-pad {
+        padding: 0 !important;
+    }
+
+    .row.bg-header-jw h1 {
+        font-size: 7.2vw;
+    }
+
+    
+
   }
+
+
+
+
+@media only screen and (max-width: 768px){
+
+
+    .col02 h4 {
+        padding-right: 7px !important;
+    }
+
+    .row.bg-header-jw h1 {
+        font-size: 6.8vw;
+    }   
+
+    .col02 h2 {
+        font-size: 24px !important;
+    }
+
+    .col02 p {
+        font-size: 18px;
+    }
+
+    .col02 h4 {
+        font-size: 16px !important;
+    }
+
+    p.bottom-caption-text-heading {
+        font-size: 21px !important;
+    }
+
+    .row.bg-header-jw p {
+        font-size: 24px;
+    }
+
+
+
+    button.btn-1 {
+        padding: 0.2rem 1rem;
+        margin: 10px !important;
+    }
+
+
+    .client-text {
+        width: 80%;
+    }
+
+    .col1.head-text.seccond h1 {
+        font-size: 24px !important;
+    }
+
+    button.btn-1 {
+        width: max-content;
+        padding: 0.7rem 6rem;
+        font-size: 18px !important;
+        font-family: 'Poppins', sans-serif;
+        border: 3px solid #000;
+        margin: 30px 0;
+        background-color: transparent;
+    }
+
+    button.btn-1 {
+       
+        font-size: 18px !important;
+    
+        padding: 6px 25px !important;
+        
+    }
+
+
+    .client-text {
+        width: 80% !important;
+    }
+
+
+    .col-offer12 h1 {
+        font-size: 36px !important;
+    }
+
+    .col-offer12 h3 {
+        font-size: 18px !important;
+    }
+
+
+    .col-offer12 p {
+        font-size: 14px !important;
+    }
+
+    button.order-button {
+        font-size: 20px;
+    }
+
+    .arrow img {
+        width: 16px;
+    }
+
+
+}
+
 
 
  /* Timeless Beautiful Designs  section End */
@@ -368,6 +689,10 @@ button.btn-1 {
     grid-auto-flow: column;
     align-items: center;
     background: #FFF6F1;
+}
+
+p.fo {
+    line-height: 20px;
 }
 
 .col-offer13 img {
@@ -500,6 +825,7 @@ img.img-pad {
 
 .col-offer1 img {
     max-width: 100%;
+    height: 100%;
 }
 
 .col012 {
@@ -514,7 +840,8 @@ img.img-pad {
   .offer-row {
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: 50% 25% 25%;
+    grid-template-columns: 49% 24% 24%;
+    justify-content: space-between;
    
 }
 
@@ -691,7 +1018,7 @@ h3.fo.mar {
 }
 
 .client-text {
-    width: 50%;
+    width: 60%;
 }
 
 
